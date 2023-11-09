@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    color: white;
+}
+nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: none;
+}
+nav h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+nav .gradi{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .gradi a{
+    align-items: center;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: none;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+.gradi a{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+header .gg{
+   align-items: center;
+   margin-top: 200px;
+   margin-left:150px; 
+}
+header h1{
+    justify-content: center;
+    margin-top: -30px
+}
+header h3{
+
+}
+button{
+    background-color: purple;
+    font-size: 30px;
+    outline: none;
+}
+header .gr img{
+    height: 300px;
+    width: 400px;
+    margin-left: 700px;
+    margin-top: -400px;
+}
+@media screen and(max-width:680px){
+body nav .gradi a{
+    margin-left: 0px;
+    display: flex;
+}
+header .gr img{
+    align-items: left;
+}
+}
